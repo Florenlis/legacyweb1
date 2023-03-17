@@ -1,7 +1,88 @@
 h1{
     color:rgb(172, 3, 3);
+    border: 0.5rem dotted rgb(172, 3, 3);
 }
 
-h1.pagina1{
-    color:rgb(222, 27, 59);
+h2,h3,h4,h5,h6 {
+
+    display: none;
+}
+body ul li{
+  color: rebeccapurple;
+}
+p{
+  text-decoration: underline #ccc double 0.1rem;
+  text-indent: 1rem;
+}
+p.maiusculo{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 2rem;
+    word-spacing: 2rem;
+    color:aliceblue;
+    font: italic small-caps bold 2rem monospace;
+    text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem blueviolet, 0 0 2rem rgb(172, 3, 3);
+
+}
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color:  royalblue;
+}
+a:hover{
+    color:blueviolet;
+}
+footer{
+    clear:both;
+    background: #d9d9d9 url("../img/apearl.jpeg") no-repeat left bottom;
+    height: 168px;
+}
+div{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: incline;
+    z-index: 2rem;
+    background-color: lightgreen;
+    color:white;
+    border: 0.2rem solid darkgreen;
+    padding: 0.2rem;
+    font-size: 2rem;
+}
+h1#pagina1{
+    color: pink;
+    border: 0.3rem dashed palevioletred;
+}
+img{
+    width: 20rem;
+}
+ul{
+    list-style-type: square;
+}
+h1.pagina2{
+    color: rgb(195, 43, 226);
+    border: 1rem groove rgb(77, 55, 156);
+    border-radius: 0.7rem;
+}
+ol{
+    list-style-type: upper-roman;
+}
+section img{
+    float: left;
+}
+main.grid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:2rem;    
+}
+main.flexbox{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main.flexbox article{
+    background-color: lightgreen;
+    margin: 1rem;
+    padding: 2rem;
 }

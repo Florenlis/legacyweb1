@@ -1,6 +1,6 @@
 h1{
-    color:rgb(172, 3, 3);
-    border: 0.5rem dotted rgb(172, 3, 3);
+    color: pink;;
+    border: 0.5rem dotted  pink;;
 }
 
 h2,h3,h4,h5,h6 {
@@ -8,7 +8,7 @@ h2,h3,h4,h5,h6 {
     display: none;
 }
 body ul li{
-  color: rebeccapurple;
+  color: rgb(194, 84, 148);
 }
 p{
   text-decoration: underline #ccc double 0.1rem;
@@ -22,12 +22,12 @@ p.maiusculo{
     word-spacing: 2rem;
     color:aliceblue;
     font: italic small-caps bold 2rem monospace;
-    text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem blueviolet, 0 0 2rem rgb(172, 3, 3);
+    text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem pink, 0 0 2rem plum;
 
 }
 a:link, a:visited, a:active{
     text-decoration: none;
-    color:  royalblue;
+    color: pink;
 }
 a:hover{
     color:blueviolet;
@@ -38,7 +38,7 @@ footer{
     height: 168px;
 }
 div{
-    position: fixed;
+    position:fixed;
     right: 0;
     bottom: 0;
     display: incline;
@@ -51,7 +51,7 @@ div{
 }
 h1#pagina1{
     color: pink;
-    border: 0.3rem dashed palevioletred;
+    border: 0.3rem dashed pink;
 }
 img{
     width: 20rem;
@@ -60,8 +60,8 @@ ul{
     list-style-type: square;
 }
 h1.pagina2{
-    color: rgb(195, 43, 226);
-    border: 1rem groove rgb(77, 55, 156);
+    color: plum;
+    border: 1rem groove plum;
     border-radius: 0.7rem;
 }
 ol{

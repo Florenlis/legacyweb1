@@ -1,6 +1,12 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+body{
+    background-image: url("../img/sashimi-meal-with-lettuce-and-tea-4quft3rkrl9jrhhg.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +15,8 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
+
+
 :root {
     --primary: #ffff;
     --secondary: #ff0707;
@@ -16,10 +24,13 @@
     --third: #d60404;
     --third-light: #ee0000;
     --black: #000;
-    --white: #FFF;
+    --white: #ffffff93;
 }
 
 /*Cabeçalho*/
+header{
+    background-color: var(--white);
+}
 header {
     border-bottom: 2.0rem solid var(--third);
     display: flex;
@@ -59,46 +70,51 @@ header nav ul li a {
 header nav ul li:hover {
     background-color: var(--secondary-light);
 }
-
-/*Principal*/
-main {
-    min-height: calc(100vh - 9rem);
-    
+main nav{
+    background-color: #00000081;
+    height: 50px;
 }
-main section {
+
+main nav {
     display: flex;
-    max-width: 2000;
-    margin: 5 auto;
-    left: 13px;
-    gap: 10px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+main nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+main nav ul li {
+    padding: 3rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
     
 }
-main section.img img {
-    width: 50%;
-}
-
-/*Listar*/
-main section.list {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 10rem;
-}
-main section.list aside {
-    background-color: var(--third-light);
-    border-radius: 1rem;
-    padding: 1rem;
-    line-height: 2rem;
-}
-main section.list aside h3 strong {
+main nav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: var(--primary);
     font-weight: bold;
 }
 
-/*Rodapé*/
+
+
 footer {
-    background-color: var(--black);
+    background: var(--black);
     height: 3rem;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+
 }
+
 footer img {
     height: 100%;
     padding: 0.4rem;
+
 }
